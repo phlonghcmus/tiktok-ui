@@ -7,6 +7,7 @@
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12);
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 .inner {
   height: 100%;
@@ -16,7 +17,6 @@
   justify-content: space-between;
 }
 .search-box {
-  width: 361px;
   height: var(--search-height);
   background-color: rgba(22, 24, 35, 0.06);
   padding-left: 16px;
@@ -45,6 +45,16 @@
   &:focus-within {
     border-color: rgba(22, 24, 35, 0.2);
   }
+}
+.search-title {
+  color: rgba(22, 34, 35, 0.5);
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 5px 12px;
+}
+.search-box,
+.search-result {
+  width: 361px;
 }
 .clear-btn,
 .loading {
